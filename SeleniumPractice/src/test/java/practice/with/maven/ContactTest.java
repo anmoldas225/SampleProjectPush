@@ -15,6 +15,11 @@ public class ContactTest {
 
 		String PASSWORD = System.getProperty("password");
 		
+		System.out.println(URL);
+		System.out.println(BROWSER);
+		System.out.println(USERNAME);
+		System.out.println(PASSWORD);
+				
 		System.out.println("Execute CreateOrgTest");
 	}
 	
@@ -23,9 +28,6 @@ public class ContactTest {
 		System.out.println("Execute ModifyContactTest");
 	}
 	
-	@Test
-	public void deleteContactTest() {
-		System.out.println("Execute DeleteContactTest");
-	}
+	
 
 }
